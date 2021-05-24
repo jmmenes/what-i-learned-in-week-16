@@ -20,6 +20,9 @@ https://hapi.dev/
 
 https://sailsjs.com/
 
+HTTP request logger middleware for node.js
+https://www.npmjs.com/package/morgan
+
 &nbsp;
 
 ## JSON Viewer
@@ -40,6 +43,26 @@ Makes viewing JSON Objects neater & prettier to look at.
 
 &nbsp;
 
-##
+## MongoDB
+
+https://www.mongodb.com/
+
+https://shashank6341.medium.com/installing-mongodb-on-macos-catalina-big-sur-or-older-d47c18b0c57d
 
 &nbsp;
+
+## Payload
+
+### Data = Payload
+
+In computing and telecommunications, the payload is the part of transmitted data that is the actual intended message. Headers and metadata are sent only to enable payload delivery.
+
+    {
+        "status":"OK",
+        "data":
+            {
+                "message":"Hello, world!"
+            }
+    }
+
+In this example, the string Hello, world! is the payload, the part that the recipient is interested in; the rest, while vital information, is protocol overhead.

@@ -12,16 +12,28 @@ Hard coding is often required, but can also be considered an anti-pattern. Progr
 
 &nbsp;
 
-## Node.JS Frameworks
+# Node.JS Frameworks
+
+## Express JS
 
 https://expressjs.com/
 
-https://hapi.dev/
+    // Install
+    npm i express
 
-https://sailsjs.com/
+Express is a minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.
+
+&nbsp;
+
+## Morgan
+
+https://www.npmjs.com/package/morgan
 
 HTTP request logger middleware for node.js
-https://www.npmjs.com/package/morgan
+
+Morgan helps log what requests are being made to the server. Before using, install the morgan library using the command `npm i morgan` in the terminal
+
+    npm i morgan
 
 &nbsp;
 
@@ -41,11 +53,17 @@ Makes viewing JSON Objects neater & prettier to look at.
 - View - Client, show on screen
 - Controller - Handle the logic
 
+Model => Controller => User
+
 &nbsp;
 
 ## MongoDB
 
 https://www.mongodb.com/
+
+MongoDB is a document-oriented NoSQL database used for high volume data storage. Instead of using tables and rows as in the traditional relational databases, MongoDB makes use of collections and documents. Documents consist of key-value pairs which are the basic unit of data in MongoDB. Collections contain sets of documents and function which is the equivalent of relational database tables. MongoDB is a database which came into light around the mid-2000s.
+
+INSTALLATION & USE
 
 https://shashank6341.medium.com/installing-mongodb-on-macos-catalina-big-sur-or-older-d47c18b0c57d
 
